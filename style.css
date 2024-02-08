@@ -4,6 +4,16 @@ html, body {
   border: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #A3D8FF;
+  font-size: 16px;
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 5px;
+}
+header {
+  background: #424242
 }
 
 #headerimage {
@@ -14,27 +24,41 @@ html, body {
 
 #menu {
   background-color: #323232;
-  height: 10vh;
+  height: 8vh;
+  border-top: black 2px solid;
   display:flex;
   align-items: center;
 }
 
 #mainbody {
   margin: auto;
-  width: 60%;
-  height: 90vh;
-  text-align: center;
+  width: 57%;
+  padding: 25px;
   background-color: #E6F8FF;
+  height: 100%;
   color: black
 }
 
-#ul {
+ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline-start: 0;
+}
 
+li {
+  float:left;
+}
 
+li>a {
+  display: block;
+  color: white;
+  padding: 18px 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li>a:hover {
+  background-color:#272727
 }
 
