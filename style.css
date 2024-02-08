@@ -1,1 +1,40 @@
-test
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #A3D8FF;
+}
+
+#headerimage {
+  margin: auto;
+  width: 50%;
+  background-color: black;
+}
+
+#menu {
+  background-color: #323232;
+  height: 10vh;
+  display:flex;
+  align-items: center;
+}
+
+#mainbody {
+  margin: auto;
+  width: 60%;
+  height: 90vh;
+  text-align: center;
+  background-color: #E6F8FF;
+  color: black
+}
+
+#ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+
+}
+
