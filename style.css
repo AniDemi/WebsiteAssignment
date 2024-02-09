@@ -24,12 +24,12 @@ header {
 #headerimage {
   margin: auto;
   width: 50%;
-  background-color: black;
 }
 
 #menu {
   background-color: #323232;
   height: 56px;
+  width: 100%;
   border-top: black 2px solid;
   display:flex;
   align-items: center;
@@ -38,10 +38,11 @@ header {
 #mainbody {
   min-height: 100%;
   margin: auto;
-  width: 57%;
+  width: 67%;
   padding: 20px 25px;
   background-color: #E6F8FF;
   color: black;
+  max-width: 100%;
 }
 
 #sortimages {
@@ -74,7 +75,7 @@ li>a {
 }
 
 li>a:hover {
-  background-color:#272727
+  background-color:#272727;
 }
 
 table {
@@ -87,6 +88,51 @@ th, td {
   border-right: 1px solid black;
   padding: 2px;
   padding-right: 10px;
+}
+
+.maxwidth {
+  max-width: 100%
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
+  #headerimage {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    
+  }
+
+  #menu {
+    height: 120px;
+  }
+
+  #mainbody {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  html, body {
+    height: 150%
+  }
+  ul {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  li {
+    float:none
+  }
+
+  li>a {
+    padding: 0;
+    text-align: left;
+  }
 }
 
 
