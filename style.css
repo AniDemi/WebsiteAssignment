@@ -135,5 +135,16 @@ th, td {
   }
 }
 
+@media print {
+  #headerimage {
+    display:none;
+  }
+  li>a {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+
 
 
