@@ -136,6 +136,9 @@ th, td {
 }
 
 @media print {
+  html {
+    font-size: 12px;
+  }
   #headerimage {
     display:none;
   }
