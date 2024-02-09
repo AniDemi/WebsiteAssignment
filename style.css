@@ -2,18 +2,23 @@ html, body {
   padding: 0;
   margin: 0;
   border: 0;
+  height: 77.3%;
+}
+
+html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #A3D8FF;
   font-size: 16px;
-  height: 100%;
 }
+ 
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
+
 header {
-  background: #424242
+  background: #424242;
 }
 
 #headerimage {
@@ -24,19 +29,29 @@ header {
 
 #menu {
   background-color: #323232;
-  height: 8vh;
+  height: 56px;
   border-top: black 2px solid;
   display:flex;
   align-items: center;
 }
 
 #mainbody {
+  min-height: 100%;
   margin: auto;
   width: 57%;
-  padding: 25px;
+  padding: 20px 25px;
   background-color: #E6F8FF;
-  height: 100%;
-  color: black
+  color: black;
+}
+
+#sortimages {
+  display:inline-block;
+  text-align: center;
+}
+
+#sortimages>div {
+  display:inline-block;
+  padding: 5px;
 }
 
 ul {
