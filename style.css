@@ -21,6 +21,11 @@ header {
   background: #424242;
 }
 
+.center {
+  display:flex;
+  justify-content: center;
+}
+
 #headerimage {
   margin: auto;
   width: 50%;
