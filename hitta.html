@@ -6,25 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hitta till oss/Kontakta oss - Sega Råttan</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="scripts/script.js" defer></script>
 </head>
 <body>
   <header>
     <div id="headerimage">
       <img src="images/headerimage.png" alt="Bild av affärens logotyp" style="display:block; max-width: inherit;">
     </div>
-    <div id="menu">
+    <div class="menu" id="desktopmenu">
       <ul>
-        <li><a href="index.html">Hem</a></li>
-        <li><a href="sortiment.html">Sortiment</a></li>
-        <li><a href="omoss.html">Om oss</a></li>
-        <li><a href="leverantor.html">För Leverantörer</a></li>
-        <li><a href="hitta.html">Hitta till oss/Kontakta oss</a></li>
-        <li><a href="extra.html">Extra</a></li>
+        <li><a href="index.html" onmouseover="mouseover(this)" onmouseout="mouseout(this)">Hem</a></li>
+        <li><a href="sortiment.html" onmouseover="mouseover(this)" onmouseout="mouseout(this)">Sortiment</a></li>
+        <li><a href="omoss.html" onmouseover="mouseover(this)" onmouseout="mouseout(this)">Om oss</a></li>
+        <li><a href="leverantor.html" onmouseover="mouseover(this)" onmouseout="mouseout(this)">För Leverantörer</a></li>
+        <li><a href="hitta.html" onmouseover="mouseover(this)" onmouseout="mouseout(this)">Hitta till oss/Kontakta oss</a></li>
+        <li><a href="extra.html" onmouseover="mouseover(this)" onmouseout="mouseout(this)">Extra</a></li>
       </ul>
     </div>
 
 
-
+    <div class="menu" id="mobilemenu">
+      <div id="slideshow">
+        <img src="images/menuicon.png" alt="meny knapp" style="height: 25px; margin-left:5px;" id="slideshowbtn">
+        <ul id="slidelist">
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="sortiment.html">Sortiment</a></li>
+          <li><a href="omoss.html">Om oss</a></li>
+          <li><a href="leverantor.html">För Leverantörer</a></li>
+          <li><a href="hitta.html">Hitta till oss/Kontakta oss</a></li>
+          <li><a href="extra.html">Extra</a></li>
+        </ul>
+      </div>
+    </div>
 
   </header>
   <div id="mainbody" style="line-height: 2;">
