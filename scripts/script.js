@@ -1,6 +1,6 @@
 const slidebtn = document.getElementById("slideshowbtn");
 const slide = document.getElementById("slidelist");
-const square = document.getElementById("square");
+const square = document.getElementById("animsquare");
 
 function mouseover(button) {
   button.style="background-color:#272727";
