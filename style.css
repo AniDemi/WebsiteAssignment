@@ -68,6 +68,12 @@ header {
   padding: 5px;
 }
 
+#square {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
 ul {
   list-style-type: none;
   margin-left: auto;
